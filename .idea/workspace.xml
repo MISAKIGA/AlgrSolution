@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="749597cb-979a-492e-b392-f1a5413cce2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/toolkit_smartfox_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetcodeSolution/ArrayDemo/RemoveElement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayDemo/RemoveRepeatElement26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetcodeSolution/ArrayDemo/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetcodeSolution/ArrayDemo/RemoveElement.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.RemoveElement">
+  <component name="RunManager" selected="Application.RemoveRepeatElement26">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="LeetcodeSolution" />
@@ -84,8 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveRepeatElement26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayDemo.RemoveRepeatElement26" />
+      <module name="LeetcodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveRepeatElement26" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.Main" />
       </list>
@@ -119,7 +125,7 @@
       <workItem from="1575522090881" duration="64000" />
       <workItem from="1575522440124" duration="335000" />
       <workItem from="1575523000272" duration="635000" />
-      <workItem from="1575523663196" duration="3316000" />
+      <workItem from="1575523663196" duration="6294000" />
     </task>
     <task id="LOCAL-00001" summary="first commit this solution project">
       <created>1575527342692</created>
@@ -147,26 +153,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="310" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575527339796" />
+    <state x="109" y="90" width="1350" height="638" key="DiffContextDialog" timestamp="1575531153014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="109" y="90" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1575531153014" />
     <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1575527017149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575527017149" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575527119626">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575531053143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575527119626" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575527119626">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575531053143" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575531053143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575527119626" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575527119626">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575531053143" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575531053143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575527119626" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575527119626">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575531053143" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575531053143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575527119626" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575531053143" />
     <state x="272" y="57" key="SettingsEditor" timestamp="1575523864447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -175,13 +185,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="371" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575527782753" />
+    <state x="377" y="142" key="VcsDiffUtil.ChangesDialog" timestamp="1575531136040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="377" y="142" key="VcsDiffUtil.ChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575531136040" />
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1575523866494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1575523866494" />
-    <state x="431" y="145" key="search.everywhere.popup" timestamp="1575523135990">
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1575529712825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575523135990" />
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575529712825" />
   </component>
 </project>
