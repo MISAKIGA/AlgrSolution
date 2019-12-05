@@ -15,9 +15,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/toolkit_smartfox_info.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetcodeSolution.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/LeetcodeSolution/ArrayDemo/RemoveElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayDemo/RemoveElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -116,22 +119,34 @@
       <workItem from="1575522090881" duration="64000" />
       <workItem from="1575522440124" duration="335000" />
       <workItem from="1575523000272" duration="635000" />
-      <workItem from="1575523663196" duration="2657000" />
+      <workItem from="1575523663196" duration="3316000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit this solution project">
+      <created>1575527342692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575527342692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit this solution project" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit this solution project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1575527045902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1575527045902" />
-    <state x="310" y="10" key="CommitChangelistDialog2" timestamp="1575527137166">
+    <state x="310" y="10" key="CommitChangelistDialog2" timestamp="1575527339796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="310" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575527137166" />
+    <state x="310" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575527339796" />
     <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1575527017149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -156,6 +171,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575523864447" />
+    <state x="371" y="141" key="Vcs.Push.Dialog.v2" timestamp="1575527782753">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="371" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575527782753" />
     <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1575523866494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
