@@ -107,7 +107,7 @@ public class LinkedList {
 	class CLType
 	{
 		public CLType() {
-			// TODO Auto-generated constructor stub
+			
 		}
 		
 		/**
