@@ -1,7 +1,9 @@
 package homework.data_structure;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -18,29 +20,54 @@ public class Homework {
 	
 	private static void hw2() {
 		
-		final int N = 1000000;
-		Object object = new Object();
+		/*
+		 * final int N = 1000000; Object object = new Object();
+		 * 
+		 * Collection<Object> lists = new ArrayList<>();
+		 * 
+		 * Long runTime = TestTime.testTime(() ->{ for (int i = 0; i <= N; i++) {
+		 * lists.add(object); } });
+		 * 
+		 * System.out.println("没有调用ensureCapacity(偏差-7~8)：" + runTime);
+		 * 
+		 * 
+		 * ArrayList<Object> lists1 = new ArrayList<>(); lists1.ensureCapacity(N); Long
+		 * runTime1 = TestTime.testTime(() ->{ for (int i = 0; i <= N; i++) {
+		 * lists1.add(object); } }); System.out.println("调用ensureCapacity(偏差-7~8)：" +
+		 * runTime1);
+		 */
+		/*
+		 * char[] s = new String("hannaH").toCharArray();
+		 * 
+		 * final int len = s.length;
+		 * 
+		 * for(int i = 0;i < s.length/2;i++) {
+		 * 
+		 * s[i] ^= s[s.length - i - 1]; s[s.length - i - 1] ^= s[i]; s[i] ^= s[s.length
+		 * - i - 1]; }
+		 * 
+		 * System.out.println((s.length >> 1)+":"+Arrays.toString(s));
+		 */
 		
-		Collection<Object> lists = new ArrayList<>();
-		
-		Long runTime = TestTime.testTime(() ->{
-			for (int i = 0; i <= N; i++) {
-				lists.add(object);
-			}
-		});
-		
-		System.out.println("没有调用ensureCapacity(偏差-7~8)：" + runTime);
-		
-		
-		ArrayList<Object> lists1 = new ArrayList<>();
-		lists1.ensureCapacity(N);
-		Long runTime1 = TestTime.testTime(() ->{
-			for (int i = 0; i <= N; i++) {
-				lists1.add(object);
-			}
-		});
-		System.out.println("调用ensureCapacity(偏差-7~8)：" + runTime1);
 	}
+	  public class ListNode {
+		     int val;
+		     ListNode next;
+		     ListNode(int x) { val = x; }
+		 }
+    public ListNode swapPairs(ListNode head) {
+
+        if(head == null || head.next == null){
+            return head;
+        }
+        
+        ListNode next = head.next;
+        
+        head.next = next.next;
+        next.next = head;
+        
+        return swapPairs(head.next);
+    }
 	
 	
 	private static void hw4() {

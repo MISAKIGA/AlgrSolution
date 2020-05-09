@@ -1,15 +1,6 @@
 package data_structure.linked_list;
 
-import static org.hamcrest.CoreMatchers.either;
-import static org.hamcrest.CoreMatchers.instanceOf;
-import static org.hamcrest.CoreMatchers.nullValue;
-
 import java.util.Random;
-
-import javax.xml.soap.Node;
-
-import org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine;
-
 	
 public class LinkedList {
 		

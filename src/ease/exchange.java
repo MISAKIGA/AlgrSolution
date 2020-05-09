@@ -16,6 +16,12 @@ public class exchange {
 		//System.out.println(arm(153))
 	}
 
+	public static void exchange(int[] arr,int i,int j) {
+		arr[i] ^= arr[j];
+		arr[j] ^= arr[i];
+		arr[i] ^= arr[j];
+	}
+	
 	public static void hanoi(int left,int mid,int right) {
 		
 		

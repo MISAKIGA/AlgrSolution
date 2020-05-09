@@ -1,8 +1,5 @@
 package data_structure.stack;
 
-import static org.hamcrest.CoreMatchers.nullValue;
-
-import org.junit.jupiter.api.io.TempDir;
 
 public class QueueDemo {
 

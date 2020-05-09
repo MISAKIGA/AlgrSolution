@@ -1,4 +1,4 @@
-package sort;
+package sort.quick;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -27,25 +27,25 @@ public class QuickSortse {
 
 	Random rand = new Random();
 	public void quickSort(int[] src, int low, int high) {
-        // 0¸ö»ò1¸öÔªËØ£¬·µ»Ø
+        // 0ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½Ôªï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½
         if (low >= high)
             return;
-        // Ëæ»úÑ¡Ôñkey
+        // ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½key
         int i = low + rand.nextInt(high - low + 1);
-        // ½»»»keyºÍ×ó¶Ëµã
+        // ï¿½ï¿½ï¿½ï¿½keyï¿½ï¿½ï¿½ï¿½Ëµï¿½
         swap(src, low, i);
-        // »®·ÖËã·¨²»±ä
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ã·¨ï¿½ï¿½ï¿½ï¿½
         int key = src[low];
         int keyIndex = low;
         for (i = low + 1; i <= high; i++) {
-            // Ð¡ÓÚkeyµÄ·Åµ½×ó±ß
+            // Ð¡ï¿½ï¿½keyï¿½Ä·Åµï¿½ï¿½ï¿½ï¿½
             if (src[i] < key) {
                 swap(src, ++keyIndex, i);
             }
         }
-        // ½»»»×ó¶ËµãºÍkeyÎ»ÖÃ
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½keyÎ»ï¿½ï¿½
         swap(src, low, keyIndex);
-        // µÝ¹é×ÓÐòÁÐ
+        // ï¿½Ý¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         quickSort(src, low, keyIndex - 1);
         quickSort(src, keyIndex + 1, high);
     }
